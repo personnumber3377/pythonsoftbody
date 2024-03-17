@@ -3,6 +3,8 @@ import math
 import turtle
 from constants import *
 
+GRAVITY = 0.1
+
 # This file defines the point class. One point is a place where the springs connect to.
 
 def point_distance(p1, p2) -> float: # Gets the distance point p1 and p2.
@@ -93,6 +95,9 @@ class Point:
 
 		#self.force = tot_f
 		self.force = tot_f_vec
+
+		# apply gravity.
+		self.force = [self.force[0], self.force[1]-(self.mass*GRAVITY)]
 		print("Here is the force: "+str(self.force))
 		return
 	# Timestep a bit.
