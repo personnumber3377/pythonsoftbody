@@ -1,9 +1,12 @@
 
 import turtle
+from constants import *
+
 
 
 class Spring:
-	def __init__(self, p1, p2, k, relaxed_distance=None) -> None: # Constructor.
+	#def __init__(self, p1, p2, k, relaxed_distance=None) -> None: # Constructor.
+	def __init__(self, k, relaxed_distance=None) -> None: # Constructor.
 		# k is the spring constant.
 		self.k = k
 		self.points = [None, None]
@@ -20,5 +23,16 @@ class Spring:
 			# Can not attach an already attached spring.
 			print("Tried to attach an already attached spring!")
 			exit(1)
-	# 
+	# Rendering function.
+	def render(self) -> None:
+		if None in self.points: # Do not render springs which aren't fully connected
+			return
+		p1 = self.points[0]
+		p2 = self.points[1]
+		turtle.penup()
+		turtle.goto(p1.x0*SCALEFACTOR, p1.y0*SCALEFACTOR)
+		turtle.pendown()
+		turtle.goto(p2.x0*SCALEFACTOR, p2.y0*SCALEFACTOR)
+		turtle.penup()
+		return
 

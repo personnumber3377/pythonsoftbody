@@ -1,0 +1,400 @@
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [1.0, 0.0]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [1.0, 0.0]
+Here is the force: [2.0, 0.0]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-1.0, 0.0]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-1.0, 0.0]
+Here is the force: [-2.0, 0.0]
+self.acceleration == [0.2, 0.0]
+self.acceleration == [-0.2, 0.0]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [1.0, 0.0]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [1.0, 0.0]
+Here is the force: [1.992, 0.0]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-1.0, 0.0]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-1.0, 0.0]
+Here is the force: [-1.992, 0.0]
+self.acceleration == [0.1992, 0.0]
+self.acceleration == [-0.1992, 0.0]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9999979758209875, -0.0020120521682340338]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [0.9999979758209875, -0.0020120521682340338]
+Here is the force: [1.9760360483580248, -0.0039758956635319335]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9999979758209875, 0.0020120521682340338]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [-0.9999979758209875, 0.0020120521682340338]
+Here is the force: [-1.9760360483580248, 0.0039758956635319335]
+self.acceleration == [0.19760360483580247, -0.00039758956635319335]
+self.acceleration == [-0.19760360483580247, 0.00039758956635319335]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9999816356272879, -0.006060396701041819]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.9999816356272879, -0.006060396701041819]
+Here is the force: [1.9521965845519917, -0.01183130301526224]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9999816356272879, 0.006060396701041819]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.9999816356272879, 0.006060396701041819]
+Here is the force: [-1.9521965845519917, 0.01183130301526224]
+self.acceleration == [0.19521965845519917, -0.001183130301526224]
+self.acceleration == [-0.19521965845519917, 0.001183130301526224]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9999257528818289, -0.01218559492628399]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [0.9999257528818289, -0.01218559492628399]
+Here is the force: [1.92062741951127, -0.023405725546148948]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9999257528818289, 0.01218559492628399]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [-0.9999257528818289, 0.01218559492628399]
+Here is the force: [-1.92062741951127, 0.023405725546148948]
+self.acceleration == [0.192062741951127, -0.0023405725546148948]
+self.acceleration == [-0.192062741951127, 0.0023405725546148948]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9997909884743218, -0.0204445436617816]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [0.9997909884743218, -0.0204445436617816]
+Here is the force: [1.881533508116599, -0.03847513570460921]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9997909884743218, 0.0204445436617816]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [-0.9997909884743218, 0.0204445436617816]
+Here is the force: [-1.881533508116599, 0.03847513570460921]
+self.acceleration == [0.1881533508116599, -0.003847513570460921]
+self.acceleration == [-0.1881533508116599, 0.003847513570460921]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9995221622665779, -0.030910307956159944]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [0.9995221622665779, -0.030910307956159944]
+Here is the force: [1.8351815862899348, -0.05675314678271923]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9995221622665779, 0.030910307956159944]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [-0.9995221622665779, 0.030910307956159944]
+Here is the force: [-1.8351815862899348, 0.05675314678271923]
+self.acceleration == [0.18351815862899348, -0.005675314678271923]
+self.acceleration == [-0.18351815862899348, 0.005675314678271923]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9990459379905751, -0.04367165882505443]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [0.9990459379905751, -0.04367165882505443]
+Here is the force: [1.7819037342546293, -0.07789300669995093]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9990459379905751, 0.04367165882505443]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [-0.9990459379905751, 0.04367165882505443]
+Here is the force: [-1.7819037342546293, 0.07789300669995093]
+self.acceleration == [0.17819037342546293, -0.007789300669995093]
+self.acceleration == [-0.17819037342546293, 0.007789300669995093]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9982678889371783, -0.05883215036788564]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.9982678889371783, -0.05883215036788564]
+Here is the force: [1.7221019168370935, -0.10149075217480003]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9982678889371783, 0.05883215036788564]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.9982678889371783, 0.05883215036788564]
+Here is the force: [-1.7221019168370935, 0.10149075217480003]
+self.acceleration == [0.17221019168370935, -0.010149075217480003]
+self.acceleration == [-0.17221019168370935, 0.010149075217480003]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9970689286305147, -0.07650850645253675]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.9970689286305147, -0.07650850645253675]
+Here is the force: [1.6562535142587425, -0.12708999252112846]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9970689286305147, 0.07650850645253675]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.9970689286305147, 0.07650850645253675]
+Here is the force: [-1.6562535142587425, 0.12708999252112846]
+self.acceleration == [0.16562535142587426, -0.012708999252112847]
+self.acceleration == [-0.16562535142587426, 0.012708999252112847]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9953011285373162, -0.09682801006085266]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [0.9953011285373162, -0.09682801006085266]
+Here is the force: [1.5849177771964258, -0.15418894852609022]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9953011285373162, 0.09682801006085266]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [-0.9953011285373162, 0.09682801006085266]
+Here is the force: [-1.5849177771964258, 0.15418894852609022]
+self.acceleration == [0.15849177771964257, -0.015418894852609022]
+self.acceleration == [-0.15849177771964257, 0.015418894852609022]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9927830146747201, -0.11992450030487785]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.9927830146747201, -0.11992450030487785]
+Here is the force: [1.5087429965641193, -0.18225054949264868]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9927830146747201, 0.11992450030487785]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.9927830146747201, 0.11992450030487785]
+Here is the force: [-1.5087429965641193, 0.18225054949264868]
+self.acceleration == [0.15087429965641191, -0.01822505494926487]
+self.acceleration == [-0.15087429965641191, 0.01822505494926487]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9892945508120025, -0.145932490329187]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.9892945508120025, -0.145932490329187]
+Here is the force: [1.428473943945799, -0.21071657560355866]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9892945508120025, 0.145932490329187]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.9892945508120025, 0.145932490329187]
+Here is the force: [-1.428473943945799, 0.21071657560355866]
+self.acceleration == [0.14284739439457989, -0.021071657560355866]
+self.acceleration == [-0.14284739439457989, 0.021071657560355866]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9845721941306305, -0.17497884027732066]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.9845721941306305, -0.17497884027732066]
+Here is the force: [1.3449587811890047, -0.2390269897486324]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9845721941306305, 0.17497884027732066]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.9845721941306305, 0.17497884027732066]
+Here is the force: [-1.3449587811890047, 0.2390269897486324]
+self.acceleration == [0.13449587811890046, -0.02390269897486324]
+self.acceleration == [-0.13449587811890046, 0.02390269897486324]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9783046650502542, -0.2071713839817411]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.9783046650502542, -0.2071713839817411]
+Here is the force: [1.2591541281054626, -0.26664567050033555]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9783046650502542, 0.2071713839817411]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.9783046650502542, 0.2071713839817411]
+Here is the force: [-1.2591541281054626, 0.26664567050033555]
+self.acceleration == [0.12591541281054625, -0.026664567050033554]
+self.acceleration == [-0.12591541281054625, 0.026664567050033554]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.97013041346629, -0.24258396663366935]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.97013041346629, -0.24258396663366935]
+Here is the force: [1.172126303516674, -0.29309363375877223]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.97013041346629, 0.24258396663366935]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.97013041346629, 0.24258396663366935]
+Here is the force: [-1.172126303516674, 0.29309363375877223]
+self.acceleration == [0.1172126303516674, -0.029309363375877223]
+self.acceleration == [-0.1172126303516674, 0.029309363375877223]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9596381740783555, -0.28123757723952897]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.9596381740783555, -0.28123757723952897]
+Here is the force: [1.0850459493217604, -0.31799036576873435]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9596381740783555, 0.28123757723952897]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.9596381740783555, 0.28123757723952897]
+Here is the force: [-1.0850459493217604, 0.31799036576873435]
+self.acceleration == [0.10850459493217604, -0.031799036576873434]
+self.acceleration == [-0.10850459493217604, 0.031799036576873434]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9463724263596727, -0.32307774703019393]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.9463724263596727, -0.32307774703019393]
+Here is the force: [0.9991724279910557, -0.3411028976951126]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9463724263596727, 0.32307774703019393]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.9463724263596727, 0.32307774703019393]
+Here is the force: [-0.9991724279910557, 0.3411028976951126]
+self.acceleration == [0.09991724279910556, -0.03411028976951126]
+self.acceleration == [-0.09991724279910556, 0.03411028976951126]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9298458842679425, -0.3679492240920862]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.9298458842679425, -0.3679492240920862]
+Here is the force: [0.9158238056944817, -0.36240054874861777]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9298458842679425, 0.3679492240920862]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.9298458842679425, 0.3679492240920862]
+Here is the force: [-0.9158238056944817, 0.36240054874861777]
+self.acceleration == [0.09158238056944817, -0.036240054874861774]
+self.acceleration == [-0.09158238056944817, 0.036240054874861774]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.9095611234593071, -0.4155701657860476]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.9095611234593071, -0.4155701657860476]
+Here is the force: [0.8363283256089403, -0.3821107696457347]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.9095611234593071, 0.4155701657860476]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.9095611234593071, 0.4155701657860476]
+Here is the force: [-0.8363283256089403, 0.3821107696457347]
+self.acceleration == [0.08363283256089403, -0.03821107696457347]
+self.acceleration == [-0.08363283256089403, 0.03821107696457347]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.885042818898522, -0.4655096225817012]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [0.885042818898522, -0.4655096225817012]
+Here is the force: [0.7619546197252619, -0.4007684146786569]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.885042818898522, 0.4655096225817012]
+math.sqrt(v[0]**2 + v[1]**1) == 0.9999999999999999
+vec == [-0.885042818898522, 0.4655096225817012]
+Here is the force: [-0.7619546197252619, 0.4007684146786569]
+self.acceleration == [0.07619546197252619, -0.04007684146786569]
+self.acceleration == [-0.07619546197252619, 0.04007684146786569]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.8558805226020099, -0.5171735985435747]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.8558805226020099, -0.5171735985435747]
+Here is the force: [0.6938210788341374, -0.41924770410144324]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.8558805226020099, 0.5171735985435747]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.8558805226020099, 0.5171735985435747]
+Here is the force: [-0.6938210788341374, 0.41924770410144324]
+self.acceleration == [0.06938210788341373, -0.04192477041014432]
+self.acceleration == [-0.06938210788341373, 0.04192477041014432]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.8217793410590035, -0.5698058569448281]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.8217793410590035, -0.5698058569448281]
+Here is the force: [0.632790024120664, -0.4387643299666799]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.8217793410590035, 0.5698058569448281]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.8217793410590035, 0.5698058569448281]
+Here is the force: [-0.632790024120664, 0.4387643299666799]
+self.acceleration == [0.0632790024120664, -0.04387643299666799]
+self.acceleration == [-0.0632790024120664, 0.04387643299666799]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.7826125726227167, -0.622509085213102]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.7826125726227167, -0.622509085213102]
+Here is the force: [0.5793589830972695, -0.46083623390975104]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.7826125726227167, 0.622509085213102]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.7826125726227167, 0.622509085213102]
+Here is the force: [-0.5793589830972695, 0.46083623390975104]
+self.acceleration == [0.05793589830972695, -0.046083623390975104]
+self.acceleration == [-0.05793589830972695, 0.046083623390975104]
+p1 == <point.Point object at 0x7ff82ceaab90>
+p2 == <point.Point object at 0x7ff82c481db0>
+p1 == p2: False
+v == [0.7384672418942926, -0.6742893538007525]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [0.7384672418942926, -0.6742893538007525]
+Here is the force: [0.5335676307257603, -0.48719692969477957]
+p1 == <point.Point object at 0x7ff82c481db0>
+p2 == <point.Point object at 0x7ff82ceaab90>
+p1 == p2: False
+v == [-0.7384672418942926, 0.6742893538007525]
+math.sqrt(v[0]**2 + v[1]**1) == 1.0
+vec == [-0.7384672418942926, 0.6742893538007525]
+Here is the force: [-0.5335676307257603, 0.48719692969477957]
+self.acceleration == [0.05335676307257603, -0.04871969296947796]
+self.acceleration == [-0.05335676307257603, 0.04871969296947796]
