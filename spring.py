@@ -35,4 +35,7 @@ class Spring:
 		turtle.goto(p2.x0*SCALEFACTOR, p2.y0*SCALEFACTOR)
 		turtle.penup()
 		return
+	
+	def isfullyconnected(self) -> bool: # This checks if the spring is fully connected.
+		return not None in self.points
 

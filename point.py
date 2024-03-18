@@ -3,7 +3,7 @@ import math
 import turtle
 from constants import *
 
-GRAVITY = 0.1
+GRAVITY = 0.001
 
 # This file defines the point class. One point is a place where the springs connect to.
 
@@ -17,9 +17,7 @@ def vec_dist(vec) -> float:
 
 def distance_vector(p1, p2) -> list: # Get the vector from p1 to p2
 	if isinstance(p1, list): # Just a list.
-
 		return [-1*p1[0]+p2[0], -1*p1[1]+p2[1]]
-
 	return [-1*p1.x0+p2.x0, -1*p1.y0+p2.y0] # vector.
 
 def distance_vector_norm(p1, p2) -> list: # Normalized.
@@ -27,8 +25,6 @@ def distance_vector_norm(p1, p2) -> list: # Normalized.
 	n = vec_dist(v) # Get the length of the distance vector.
 	v = [v[0]/n, v[1]/n] # Divide elements.
 	# Sanity checking.
-	print("v == "+str(v))
-	print("math.sqrt(v[0]**2 + v[1]**1) == "+str(math.sqrt(v[0]**2 + v[1]**2)))
 	assert math.sqrt(v[0]**2 + v[1]**2) - 1 < 0.01 # The difference should be less than 0.01
 	return v
 
@@ -81,13 +77,9 @@ class Point:
 			else:
 				print("FUCK!")
 				exit(1)
-			print("p1 == "+str(p1))
-			print("p2 == "+str(p2))
 			assert p1 != p2
-			print("p1 == p2: "+str(p1 == p2))
 			# Now get the vector using distance_vector_norm.
 			vec = distance_vector_norm(p1,p2)
-			print("vec == "+str(vec))
 			# Now multiply the thing with F
 			vec = [vec[0]*F, vec[1]*F]
 			tot_f_vec = [tot_f_vec[0]+vec[0], tot_f_vec[1]+vec[1]]
@@ -98,17 +90,20 @@ class Point:
 
 		# apply gravity.
 		self.force = [self.force[0], self.force[1]-(self.mass*GRAVITY)]
-		print("Here is the force: "+str(self.force))
+		print("Here is the force with gravity:"+str(self.force))
 		return
 	# Timestep a bit.
 	def timestep(self, dt) -> None: # Update stuff.
 		# F = m * a  =>  a = F / m
 		self.acceleration = [self.force[0] / self.mass, self.force[1] / self.mass]
-		print("self.acceleration == "+str(self.acceleration))
 		# dv = acceleration * dt
 		#dv = self.acceleration * dt
 
-		self.v = [self.acceleration[0] * dt + self.v[0], self.acceleration[1] * dt + self.v[0]]
+
+		# We used the wrong index here:
+		#self.v = [self.acceleration[0] * dt + self.v[0], self.acceleration[1] * dt + self.v[0]]
+
+		self.v = [self.acceleration[0] * dt + self.v[0], self.acceleration[1] * dt + self.v[1]]
 
 		# Now step over
 
